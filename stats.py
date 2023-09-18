@@ -292,15 +292,15 @@ def defence():
 
 def feedback():
     st.write("# Feedback")
-    contactForm = """ <form action="https://formsubmit.co/dumbguard.53@gmail.com" method="POST">
-     <input type="text" name="name" placeholder="Name" required>
-     <input type="email" name="email" placeholder="Email" required>
-     <input type="hidden" name="_subject" value="Football Stats App Feedback">
-     <textarea name="message" placeholder="Your feedback here..." required></textarea>
-     <button type="submit">Send</button>
-</form> """
-    st.markdown(contactForm, unsafe_allow_html=True)
-    local_css("style.css")
+    st.markdown(
+    """
+    If you have any issues with the application, or have feedback on how we can improve the system please email us
+    at dumguard.53@gmail.com.
+
+    We appreciate your use of our application and your assitance in making this a tool that helps coaches all over
+    Canada. 
+
+    """)
 
     
 
