@@ -288,11 +288,11 @@ def defence():
                     mime='text/csv',
                     )
     except:
-        st.write("An error has occurred. Make sure you have a valid CSV uploaded, or contact us using the feedback section")
+        st.write("An error has occurred. Mformajimake sure you have a valid CSV uploaded, or contact us using the feedback section")
 
 def feedback():
     st.write("# Feedback")
-    contactForm = """ <form action="https://formsubmit.co/sunburntguard@gmail.com" method="POST">
+    contactForm = """ <form action="https://formsubmit.co/dumbguard.53@gmail.com" method="POST">
      <input type="text" name="name" placeholder="Name" required>
      <input type="email" name="email" placeholder="Email" required>
      <input type="hidden" name="_subject" value="Football Stats App Feedback">
